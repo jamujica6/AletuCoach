@@ -23,7 +23,7 @@ export default function Footer() {
              /> 
             </Link>
           </div>
-              <div className="text-gray-100 font-nowLight">Un camino hacia el bienestar holístico con psicología positiva, yoga y mindfulness. Abraza la sabiduría del corazón.</div>
+              <div className="text-gray-900 font-nowLight">Un camino hacia el bienestar holístico con psicología positiva, yoga y mindfulness. Abraza la sabiduría del corazón.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -88,7 +88,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-100 text-sm mr-4 font-nowLight">&copy; Aletucoach.com. todos los derechos reservados.</div>
+            <div className="text-gray-900 text-sm mr-4 font-nowLight">&copy; Aletucoach.com. todos los derechos reservados.</div>
 
           </div>
 

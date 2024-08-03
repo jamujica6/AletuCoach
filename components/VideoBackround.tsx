@@ -14,6 +14,7 @@ const VideoBackground = () => {
         height: '100%',
         objectFit: 'cover',
         zIndex: -1,
+        filter: 'brightness(1.5) contrast(1.2) !important', // Ajusta el brillo y el contraste
       }}
     >
       <source src="/videos/fondo.mp4" type="video/mp4" />

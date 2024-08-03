@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Ale tu Coach',
+  description: 'Coaching desde una perspectiva de psicología positiva',
 }
 
 import Hero from '@/components/hero'

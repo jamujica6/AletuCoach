@@ -24,26 +24,26 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Ale tu Coach</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Coach especializada en Psicología Positiva , PNL y Mindfulness. Instructora de TANTRA YOGA ♥️ Sesiones personales y grupales..</p>
+            <h1 className="h1 mb-4 text-beige-800 font-bellezaRegular" data-aos="fade-up">Ale tu Coach</h1>
+            <p className="text-xl text-gray-900 mb-8 text-beige-950 font-nowLight" data-aos="fade-up" data-aos-delay="200">Descubre la Felicidad desde el Corazón: Bienvenida al espacio donde la felicidad florece y la positividad se cultiva. Soy Alejandra Ortiz, tu guía en este viaje hacia una vida plena y consciente.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 font-nowMedium" href="http://wa.me/56975803107">Agenda tu Hora</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                {/* <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a> */}
               </div>
             </div>
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
         </div>
 

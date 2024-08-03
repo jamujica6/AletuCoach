@@ -8,6 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        beige: {
+          100: '#EBF1F5',
+          200: '#D9E3EA',
+          300: '#C5D2DC',
+          400: '#9BA9B4',
+          500: '#707D86',
+          600: '#9C9D9C',
+          700: '#E0A688',
+          800: '#b6985e',
+          900: '#8d6c54',
+          950: '#757163'
+        },
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
@@ -18,6 +30,7 @@ module.exports = {
           700: '#33363A',
           800: '#25282C',
           900: '#151719',
+          950: '#000000'
         },
         purple: {
           100: '#F4F4FF',
@@ -25,8 +38,8 @@ module.exports = {
           300: '#CBCCFF',
           400: '#ABABFF',
           500: '#8D8DFF',
-          600: '#5D5DFF',
-          700: '#4B4ACF',
+          600: '#8d6c54',
+          700: '#b6985e',
           800: '#38379C',
           900: '#262668',
         },
@@ -37,7 +50,11 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
+        bellezaRegular: ['belleza-regular', 'sans-serif'],
+        nowLight: ['now-light','sans-serif'],
+        nowMedium: ['now-medium','sans-serif'],
+        nowBold: ['now-bold','sans-serif'],
+        inter: ['var(--font-inter)'],
         'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
       },
       fontSize: {

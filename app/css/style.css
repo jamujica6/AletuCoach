@@ -6,7 +6,6 @@
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
-
 @import 'tailwindcss/utilities';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
@@ -15,6 +14,18 @@
         direction: rtl;
     }
 }
+
+@font-face {font-family: 'belleza-regular';
+            src: url(../../public/fonts/Belleza-Regular.ttf) format('truetype');}
+
+@font-face {font-family: 'now-light';
+            src: url(../../public/fonts/now.light.otf) format('opentype');}
+
+@font-face {font-family: 'now-medium';
+            src: url(../../public/fonts/now.medium.otf) format('opentype');}                
+
+@font-face {font-family: 'now-bold';
+            src: url(../../public/fonts/now.bold.otf) format('opentype');}
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
 [x-cloak=""] {

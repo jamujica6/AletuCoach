@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="/" className="block" aria-label="Cruip">
              <Image  src={Logo} 
                      alt="Logo Plumita"
-                 width={80}
+                     width={80}
              
              /> 
             </Link>

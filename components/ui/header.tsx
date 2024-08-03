@@ -12,6 +12,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
              <Image  src={Logo} 
+                alt="Logo Plumita"
              width={40}
              
              /> 

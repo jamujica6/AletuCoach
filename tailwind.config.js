@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         beige: {
-          100: '#EBF1F5',
-          200: '#D9E3EA',
+          100: '#767263',
+          200: '#b6985e',
           300: '#C5D2DC',
           400: '#9BA9B4',
           500: '#707D86',

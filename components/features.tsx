@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import isologo from '../public/images/logo.png'
+
 export default function Features() {
   return (
     <section>
@@ -6,9 +9,19 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 text-beige-800 font-bellezaRegular">La felicidad no depende de las circunstancias externas. No se trata de suerte, ni de dinero. La felicidad está en ver el MILAGRO de cada instante.</h2>
-            <p className="text-xl text-gray-900 font-nowLight 00">La felicidad está en lo que nos encanta hacer y que perdemos la noción del tiempo cuando estamos inmersos en eso… En tus logros y los logros de los que amas… Esta en tu compromiso y tu propósito.</p>
+            <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular">CAMBIO, SANACIÓN Y TRANSFORMACIÓN PERSONAL</h2>
+            <p className="text-xl text-gray-900 font-nowLight 00">Tus pensamientos generan emociones.</p>
+            <p className="text-xl text-gray-900 font-nowLight 00">Tus emociones producen cambios fisiológicos</p>
+            <p className="text-xl text-gray-900 font-nowLight 00">Estas emociones mantenidas en el tiempo se convierten en estados emocionales que impactan directamente en tu Salud y Bienestar.</p>
+            <Image
+            src={isologo}
+            alt="Isologotipo"
+            width={350}
+            height={200}
+            />
           </div>
+          <div>
+                    </div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import MobileMenu from './mobile-menu'
+// import MobileMenu from './mobile-menu'
 import Logo from '../../public/favicon.ico'
 export default function Header() {
   return (
@@ -39,7 +39,7 @@ export default function Header() {
             </ul> */}
           </nav>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
 
         </div>
       </div>

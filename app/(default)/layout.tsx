@@ -28,10 +28,10 @@ export default function DefaultLayout({
 
   return (
     <>
-  <VideoBackground />
+{/* <VideoBackground /> */}
 <div style={{ 
 
-//  background: 'white',
+  background: 'white',
 //  'url("../../videos/fondo.mp4")' , 
 //  'url("https://images.unsplash.com/photo-1473116763249-2faaef81ccda?q=80&w=1796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
   // filter: 'brightness(90%) contrast(120%)', 

@@ -29,27 +29,33 @@ export default function DefaultLayout({
   return (
     <>
 {/* <VideoBackground /> */}
+
+
 <div style={{ 
 
-  background: 'white',
+  backgroundImage: 'url(/images/aleunpocodemi.jpg)',
 //  'url("../../videos/fondo.mp4")' , 
 //  'url("https://images.unsplash.com/photo-1473116763249-2faaef81ccda?q=80&w=1796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
   // filter: 'brightness(90%) contrast(120%)', 
-  backgroundAttachment: 'fixed',
+  // backgroundAttachment: 'fixed',
   backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  width: '100vw',
+    height: '100vh',
   overflow: 'auto',
+  filter: 'brightness(90%) contrast(110%)', 
   
   
 }}>
 
 
   {/* <Image
-   src= "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?q=80&w=1796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   src= "/../../public/images/aleunpocodemi.jpg"
    alt="Fotito linda"
    layout="fill"
    objectFit="cover"
    style={{
-    filter: 'brightness(80%) contrast(150%)', 
+    filter: 'brightness(%) contrast(100%)', 
    }}
    /> */}
       

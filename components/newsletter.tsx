@@ -1,10 +1,22 @@
+import isologo from '../public/images/logo.png'
+import Image from 'next/image';
+
 export default function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+
+<div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" style={{ marginBottom: '10px' }}>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 font-nowMedium" href="http://wa.me/56975803107">Agenda tu Hora</a>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600">
+                {/* <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a> */}
+              </div>
+            </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
 
         {/* CTA box */}
-        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
+        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12 " data-aos="fade-up">
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -40,8 +52,15 @@ export default function Newsletter() {
           </div>
 
         </div>
-
+<Image 
+            src={isologo}
+            alt="Isologotipo"
+            width={350}
+            height={200}
+            />
       </div>
+
+      
     </section>
   )
 }

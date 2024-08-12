@@ -103,7 +103,7 @@ export default function Features() {
             height={200}
             />
 
-<h2 className="h2 mb-4 text-beige-200 font-bellezaRegular" style={{ marginBottom: '2px' }}>¿TIENES UN OBJETIVO?</h2>
+ <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular" style={{ marginBottom: '2px' }}>¿TIENES UN OBJETIVO?</h2>
 <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular" style={{ marginTop: '2px' }}>¡VAMOS POR ELLO!</h2>
      
             <p className="text-xl text-gray-900 font-nowLight 00 text-center">Mi formación como Coach me dio excelentes herramientas para convertir tu sueño en una meta.
@@ -173,7 +173,7 @@ export default function Features() {
       </div>
 
       <div className="container mx-auto my-12 px-4">
-      <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center">SERVICIOS</h2>
+       <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center">SERVICIOS</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">

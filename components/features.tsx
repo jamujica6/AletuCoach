@@ -89,7 +89,7 @@ export default function Features() {
 
 
 
-<h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center">¿COMO TE PUEDO AYUDAR?</h2>
+<h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center">¿CÓMO TE PUEDO AYUDAR?</h2>
 
             <p className="text-xl text-gray-900 font-nowLight 00 text-center">A través de sesiones individuales, experiencias grupales,  charlas, cursos y retiros.</p>
             <p className="text-xl text-gray-900 font-nowLight 00 text-center">Te acompaño de manera profesional, confidencial y amorosa en tu proceso de Cambio, Sanación y Transformación.</p>

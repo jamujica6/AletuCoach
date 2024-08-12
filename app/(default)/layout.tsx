@@ -1,10 +1,8 @@
 'use client'
-
 import { useEffect } from 'react'
-
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import VideoBackground from '../../components/VideoBackround'
+// import VideoBackground from '../../components/VideoBackround'
 import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
 import Image from 'next/image'
@@ -41,24 +39,14 @@ export default function DefaultLayout({
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   width: '100vw',
-    height: '100vh',
+  height: '100vh',
   overflow: 'auto',
   filter: 'brightness(90%) contrast(110%)', 
   
   
 }}>
 
-
-  {/* <Image
-   src= "/../../public/images/aleunpocodemi.jpg"
-   alt="Fotito linda"
-   layout="fill"
-   objectFit="cover"
-   style={{
-    filter: 'brightness(%) contrast(100%)', 
-   }}
-   /> */}
-      
+     
    
       <main className="grow">
 

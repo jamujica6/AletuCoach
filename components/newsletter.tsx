@@ -6,17 +6,17 @@ export default function Newsletter() {
     <section>
 
 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" style={{ marginBottom: '10px' }}>
-              <div data-aos="fade-up" data-aos-delay="400">
+              <div >
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 font-nowMedium" href="http://wa.me/56975803107">Agenda tu Hora</a>
               </div>
-              <div data-aos="fade-up" data-aos-delay="600">
+              <div >
                 {/* <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a> */}
               </div>
             </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
 
         {/* CTA box */}
-        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12 " data-aos="fade-up">
+        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12 " style={{ borderRadius: '15px' }} >
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -35,7 +35,7 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2 font-bellezaRegular">Mantengamos contacto</h3>
+              <h3 className="h3 text-white mb-2 font-bellezaRegular">Mantengamos Contacto</h3>
               <p className="text-purple-200 text-lg font-nowLight">Súmate a mi lista de difusión y así recibir mis publicaciones e invtaciones</p>
             </div>
 

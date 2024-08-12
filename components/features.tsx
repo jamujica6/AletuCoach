@@ -103,8 +103,8 @@ export default function Features() {
             height={200}
             />
 
- <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular" style={{ marginBottom: '2px' }}>¿TIENES UN OBJETIVO?</h2>
-<h2 className="h2 mb-4 text-beige-200 font-bellezaRegular" style={{ marginTop: '2px' }}>¡VAMOS POR ELLO!</h2>
+ <h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center" style={{ marginBottom: '2px' }}>¿TIENES UN OBJETIVO?</h2>
+<h2 className="h2 mb-4 text-beige-200 font-bellezaRegular text-center" style={{ marginTop: '2px' }}>¡VAMOS POR ELLO!</h2>
      
             <p className="text-xl text-gray-900 font-nowLight 00 text-center">Mi formación como Coach me dio excelentes herramientas para convertir tu sueño en una meta.
             Y esto ¡me APASIONA! </p>
@@ -185,8 +185,8 @@ export default function Features() {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <h3 className="text-purple-700 font-bellezaRegular text-center mb-2">{service.title}</h3>
+              <p className="text-gray-700 font-nowLight text-center">{service.description}</p>
             </div>
           </div>
         ))}

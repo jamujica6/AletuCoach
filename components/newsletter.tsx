@@ -1,7 +1,45 @@
+
+"use client";
+
+
 import isologo from '../public/images/logo.png'
 import Image from 'next/image';
+import { useState, ChangeEvent, FormEvent } from 'react';
+
 
 export default function Newsletter() {
+  
+  
+  
+    const [email, setEmail] = useState<string>('');
+    const [message, setMessage] = useState<string>('');
+  
+    const suscribe = async (e: FormEvent) => {
+      e.preventDefault();
+  
+      try {
+        const res = await fetch('/api/hello', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email }),
+        });
+  
+        if (res.ok) {
+          setMessage('¡Gracias por suscribirte!');
+          setEmail('');
+        } else {
+          setMessage('Hubo un error. Por favor, inténtalo de nuevo.');
+        }
+      } catch (error) {
+        setMessage('Hubo un error. Por favor, inténtalo de nuevo.');
+      }
+    };
+  
+   const handleChange = (e: ChangeEvent<HTMLInputElement>) =>
+   {setEmail(e.target.value)};
+
   return (
     <section>
 
@@ -40,15 +78,36 @@ export default function Newsletter() {
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
+            <form 
+            onSubmit={suscribe}
+            className="w-full lg:w-1/2" id="suscription-form">
                <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-800 font-nowLight" placeholder="Tu mejor correo…" aria-label="Your best email…" />
-                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow font-nowLight" href="#0">Suscribirme</a>
+                <input 
+                type="email" 
+                value={email}
+                onChange={handleChange}
+                className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-800 font-nowLight" 
+                placeholder="Tu mejor correo…" 
+                aria-label="Your best email…"
+                required
+                
+                />
+
+                <button
+                type="submit" 
+                className="btn text-purple-600 bg-purple-100 hover:bg-white shadow font-nowLight"
+                >
+                  Suscribirme
+                </button>
               </div>
+              <p id="response-message" className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">
+                {message}
+              </p>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
             </form>
 
+            
           </div>
 
         </div>

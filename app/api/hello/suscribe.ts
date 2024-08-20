@@ -39,8 +39,10 @@ export default async function insertRowInGoogleSheet(email:string) {
     // Get the first sheet (you can also use doc.sheetsByTitle['SheetName'] for a specific sheet)
     const sheet = doc.sheetsByIndex[0];
 
+    const formattedEmail = `${email},`;
+
     // Insert a new row with the provided data
-    await sheet.addRow({'Correos':email});
+    await sheet.addRow({'Correos': formattedEmail});
     console.log('Row inserted successfully',email);
   } catch (error:any) {
     console.error('Error inserting row:', error);

@@ -1,7 +1,7 @@
 // pages/api/subscribe.ts
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library'
-// import creds from '../../../claveAPIgoogle.json'; // the file saved above
+
 
 const privateKey = process.env.GOOGLE_PRIVATE_KEY; // Reemplaza \n por saltos de línea
 const clientEmail = process.env.GOOGLE_CLIENT_EMAIL;
